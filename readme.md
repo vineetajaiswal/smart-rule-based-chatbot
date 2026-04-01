@@ -36,3 +36,41 @@ smart-rule-based-chatbot/
 ├── app.py
 ├── requirements.txt
 └── README.md
+
+▶️ How to Run the Project
+
+1️⃣ Clone the repository
+git clone https://github.com/vineetajaiswal/smart-rule-based-chatbot.git
+cd smart-rule-based-chatbot
+2️⃣ Install dependencies
+pip install -r requirements.txt
+3️⃣ Run the Streamlit app
+streamlit run app.py
+💡 How It Works
+
+The chatbot uses a rule-based approach:
+
+Takes user input
+Matches it with predefined conditions using if-else logic
+Returns the appropriate response based on keywords and phrases
+
+This makes the chatbot simple, fast, and easy to understand.
+
+📸 Example Questions
+
+You can ask things like:
+
+What is Python?
+What is AI?
+What is Machine Learning?
+What is Streamlit?
+What is GitHub?
+Tell me a joke
+What is your name?
+
+🎯 Future Improvements
+Add more knowledge categories
+Add voice input
+Add chatbot avatar
+Improve NLP handling
+Deploy online
